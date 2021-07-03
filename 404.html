@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sobre</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" type="image/png" href="./assets/img/harpa.png" />
+    <style>
+
+    </style>
+</head>
+
+
+<body>
+    <div style="text-align: center; vertical-align: middle;" class="pill-nav container">
+        <img style="width: 80%; margin-right: 40px;" src="./assets/img/Hinos Online.png"><br>
+        <a href="./index.html">Home</a>
+        <a href="#news">Novidades</a>
+        <a href="./contato.html">Contato</a>
+        <a class="active" href="./sobre.html">Sobre</a>
+    </div>
+    <section class="container">
+        <h1>Nada encontrado por aqui</h1>
+        <p>
+            Volte para a home
+        </p>
+
+
+    </section>
+
+
+    <div class="pagination">
+
+    </div>
+
+    <script src="./assets/js/main.js"></script>
+    <script>
+        // acordeão
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight) {
+                    panel.style.maxHeight = null;
+                } else {
+                    panel.style.maxHeight = panel.scrollHeight + "px";
+                }
+            });
+        }
+        // fim
+    </script>
+</body>
+
+</html>
