@@ -1,3 +1,6 @@
+// Aqui começa os versiculos
+
+
 const versi1 = `Cantem ao Senhor um novo cântico; cantem ao Senhor, todos os habitantes da terra! Cantem ao Senhor, bendigam o seu nome; cada dia proclamem a sua salvação! <br><br><b>Salmos 96:1-2 </b>
 `
 const versi2 = `Prestem culto ao Senhor com alegria;
@@ -55,3 +58,5 @@ const facts = [versi1, versi2, versi3, versi4, versi5, versi6, versi7, versi8, v
     const randomFact = Math.floor(Math.random() * facts.length);
     document.getElementById('factDisplay').innerHTML = facts[randomFact];
 }();
+
+// fim
