@@ -58,3 +58,40 @@ form button {
 form button:hover {
     background: var(--primary-color-darker);
 }
+
+.pill-nav a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 5px;
+}
+
+.pill-nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.pill-nav a.active {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+
+.pagination a.active {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
