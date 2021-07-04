@@ -50,6 +50,9 @@
                 <li>
                     Botão de scrool to top
                 </li>
+                <li>
+                    Conteúdo da página <a href="./sobre.html"><b>Sobre</b></a> adicionado
+                </li>
             </ul>
 
 
@@ -72,30 +75,12 @@
 
     </section>
 
+    <button style="font-size: 50px; margin-left: 80%;" class="randomversi" onclick="topFunction()" id="topbtn" title="Subir"><i class="fa fa-arrow-up" aria-hidden="true"></i>
+    </button>
 
-    <div class="pagination">
-
-    </div>
 
     <script src="./assets/js/main.js"></script>
-    <script>
-        // acordeão
-        var acc = document.getElementsByClassName("accordion");
-        var i;
 
-        for (i = 0; i < acc.length; i++) {
-            acc[i].addEventListener("click", function() {
-                this.classList.toggle("active");
-                var panel = this.nextElementSibling;
-                if (panel.style.maxHeight) {
-                    panel.style.maxHeight = null;
-                } else {
-                    panel.style.maxHeight = panel.scrollHeight + "px";
-                }
-            });
-        }
-        // fim
-    </script>
 </body>
 
 </html>
