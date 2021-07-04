@@ -48,11 +48,63 @@ const versi10 = ` Sempre que o espírito mandado por Deus se apoderava de Saul, 
 <br><br><b>1 Samuel 16:23
 </b>
 `
+const versi11 = ` O próprio Senhor irá à sua frente e estará com você; ele nunca o deixará, nunca o abandonará. Não tenha medo! Não desanime!"
+<br><br><b>Deuteronômio 31:8
+</b>
+`
+const versi12 = ` Pois a sua ira só dura um instante,
+mas o seu favor dura a vida toda;
+o choro pode persistir uma noite,
+mas de manhã irrompe a alegria.<br><br><b>
+Salmos 30:5
+</b>
+`
+const versi13 = ` Deixo a paz a vocês; a minha paz dou a vocês. Não a dou como o mundo a dá. Não se perturbe o seu coração, nem tenham medo.
+<br><br><b>João 14:27
+</b>
+`
+const versi14 = ` Entregue suas preocupações ao Senhor,
+e ele o susterá;
+jamais permitirá que o justo venha a cair.<br><br><b>
+Salmos 55:22
+</b>
+`
+const versi15 = ` O Senhor está perto
+dos que têm o coração quebrantado
+e salva os de espírito abatido.<br><br><b>
+Salmos 34:18
+</b>
+`
+const versi16 = ` "Eu disse essas coisas para que em mim vocês tenham paz. Neste mundo vocês terão aflições; contudo, tenham ânimo! Eu venci o mundo".
+<br><br><b>João 16:33
+</b>
+`
+const versi17 = ` Mesmo quando eu andar
+por um vale de trevas e morte,
+não temerei perigo algum, pois tu estás comigo;
+a tua vara e o teu cajado me protegem.<br><br><b>
+Salmos 23:4
+</b>
+`
+const versi18 = ` O Senhor é refúgio para os oprimidos,
+uma torre segura na hora da adversidade.
+<br><br><b>Salmos 9:9
+</b>
+`
+const versi19 = ` E a paz de Deus, que excede todo o entendimento, guardará o coração e a mente de vocês em Cristo Jesus.
+<br><br><b>Filipenses 4:7
+</b>
+`
+
+const versi20 = ` Que o Deus da esperança os encha de toda alegria e paz, por sua confiança nele, para que vocês transbordem de esperança, pelo poder do Espírito Santo.
+<br><br><b>Romanos 15:13
+</b>
+`
 
 
 
 
-const facts = [versi1, versi2, versi3, versi4, versi5, versi6, versi7, versi8, versi9, versi10];
+const facts = [versi1, versi2, versi3, versi4, versi5, versi6, versi7, versi8, versi9, versi10, versi11, versi12, versi13, versi14, versi15, versi16, versi17, versi18, versi19, versi20];
 
 ! function newFact() {
     const randomFact = Math.floor(Math.random() * facts.length);
