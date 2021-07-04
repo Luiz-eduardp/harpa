@@ -2,7 +2,7 @@
  harpa gospel: Versão Atual 1.1.20<br><br>
 
 Changelog<br><br>
-Versão 1.1.20
+Versão 1.1.20<br>
 Bíblia sendo adicionada<br><br>
 Versão 1.1.19<br>
 Ícones adicionados<br>
