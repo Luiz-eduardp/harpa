@@ -83,28 +83,3 @@ function topFunction() {
     document.documentElement.scrollTop = 0;
 }
 // fim
-
-
-
-
-// random versi button inicio
-
-
-
-
-const butto = document.querySelector('#renew-versi');
-
-butto.onclick = function(evento) {
-    evento.preventDefault();
-
-    ! function newFact() {
-        const randomFact = Math.floor(Math.random() * facts.length);
-        document.getElementById('factDisplay').innerHTML = facts[randomFact];
-    }();
-};
-
-
-
-
-
-// fim

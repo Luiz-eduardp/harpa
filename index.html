@@ -82,6 +82,29 @@
 
 
     <script src="./assets/js/main.js"></script>
+    <script>
+        // random versi button inicio
+
+
+
+
+        const butto = document.querySelector('#renew-versi');
+
+        butto.onclick = function(evento) {
+            evento.preventDefault();
+
+            ! function newFact() {
+                const randomFact = Math.floor(Math.random() * facts.length);
+                document.getElementById('factDisplay').innerHTML = facts[randomFact];
+            }();
+        };
+
+
+
+
+
+        // fim
+    </script>
 
 </body>
 
