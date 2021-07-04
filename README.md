@@ -1,7 +1,9 @@
 # harpa
- harpa gospel: Versão Atual 1.1.19<br><br>
+ harpa gospel: Versão Atual 1.1.20<br><br>
 
 Changelog<br><br>
+Versão 1.1.20
+Bíblia sendo adicionada<br>
 Versão 1.1.19<br>
 Ícones adicionados<br>
 Botão de novo versículo<br>
