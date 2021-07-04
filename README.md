@@ -3,13 +3,13 @@
 
 Changelog<br><br>
 Versão 1.1.20
-Bíblia sendo adicionada<br>
+Bíblia sendo adicionada<br><br>
 Versão 1.1.19<br>
 Ícones adicionados<br>
 Botão de novo versículo<br>
 Botão de scrool to top<br>
 Conteúdo da página Sobre adicionado<br>
-Footer adicionado<br>
+Footer adicionado<br><br>
 Versão 1.1.12<br>
 Melhorias de paginação<br>
 Criação de páginas importantes<br>
