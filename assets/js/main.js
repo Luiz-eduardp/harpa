@@ -88,23 +88,23 @@ function topFunction() {
 
 
 // random versi button inicio
-function meuescopo() {
 
 
 
-    const butto = document.querySelector('#renew-versi');
 
-    butto.onclick = function(evento) {
-        evento.preventDefault();
+const butto = document.querySelector('#renew-versi');
 
-        ! function newFact() {
-            const randomFact = Math.floor(Math.random() * facts.length);
-            document.getElementById('factDisplay').innerHTML = facts[randomFact];
-        }();
-    };
+butto.onclick = function(evento) {
+    evento.preventDefault();
 
+    ! function newFact() {
+        const randomFact = Math.floor(Math.random() * facts.length);
+        document.getElementById('factDisplay').innerHTML = facts[randomFact];
+    }();
 };
 
-meuescopo();
+
+
+
 
 // fim
