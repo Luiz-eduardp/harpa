@@ -60,3 +60,26 @@ const facts = [versi1, versi2, versi3, versi4, versi5, versi6, versi7, versi8, v
 }();
 
 // fim
+
+
+// 2top button
+//Get the button:
+mybutton = document.getElementById("topbtn");
+
+
+window.onscroll = function() { scrollFunction() };
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+    } else {
+        mybutton.style.display = "none";
+    }
+}
+
+
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+// fim
